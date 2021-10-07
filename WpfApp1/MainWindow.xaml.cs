@@ -30,21 +30,14 @@ namespace WpfApp1
 
         private void tbx_aura_res_TextChanged(object sender, TextChangedEventArgs e)
         {
-            try
-            {
-                label.Content = this.CalcReservation();
-            }
-            catch (Exception ex)
-            {
-
-            }
+            label.Content = this.CalcReservation() + "%";            
         }
 
         private string CalcReservation()
         {
             try
             {
-                return (Convert.ToDouble(tbx_aura_res.Text) * (1 / (1 + (Convert.ToDouble(tbx_effic.Text) / 100)))).ToString();
+                return  Math.Round(Convert.ToDouble(tbx_aura_res.Text) * (1 / (1 + (Convert.ToDouble(tbx_effic.Text) / 100))), 2).ToString();
             }
             catch { return "0"; }
         }

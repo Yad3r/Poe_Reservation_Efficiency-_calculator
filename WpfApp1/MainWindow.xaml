@@ -5,13 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="251.053" Width="264.372">
+        Title="PoE - Aura Mana Reservation Calculator" Height="182.553" Width="325.372">
     <Grid>
-        <Label x:Name="label" Content="Label" HorizontalAlignment="Left" Margin="114,118,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.528,0.385"/>
-        <TextBox x:Name="tbx_aura_res" HorizontalAlignment="Left" Height="23" Margin="114,13,0,0" TextWrapping="Wrap" Text="50" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="tbx_effic" HorizontalAlignment="Left" Height="23" Margin="114,41,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label" Content="Label" HorizontalAlignment="Left" Margin="202,116,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.528,0.385"/>
+        <TextBox x:Name="tbx_aura_res" HorizontalAlignment="Left" Height="23" Margin="202,13,0,0" TextWrapping="Wrap" Text="50" VerticalAlignment="Top" Width="105"/>
+        <TextBox x:Name="tbx_effic" HorizontalAlignment="Left" Height="23" Margin="202,41,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="105"/>
         <Label Content="Base Reservation" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
-        <Label Content="Efficacy" HorizontalAlignment="Left" Margin="10,37,0,0" VerticalAlignment="Top"/>
+        <Label Content="Reservation Efficacy" HorizontalAlignment="Left" Margin="10,37,0,0" VerticalAlignment="Top"/>
         <Label Content="Final Reservation" HorizontalAlignment="Left" Margin="10,118,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.528,0.385"/>
 
     </Grid>
